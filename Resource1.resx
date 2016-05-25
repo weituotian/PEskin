@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Calmness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Calmness.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CalmnessColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\CalmnessColor1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CalmnessColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\CalmnessColor2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeepCyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\DeepCyan.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeepGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\DeepGreen.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DeepOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\DeepOrange.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiamondBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\DiamondBlue.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiamondGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\DiamondGreen.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiamondOlive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\DiamondOlive.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiamondPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\DiamondPurple.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiamondRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\DiamondRed.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eighteen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Eighteen.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EighteenColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\EighteenColor1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EighteenColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\EighteenColor2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Emerald" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Emerald.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmeraldColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\EmeraldColor1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmeraldColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\EmeraldColor2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EmeraldColor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\EmeraldColor3.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GlassBrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\GlassBrown.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GlassGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\GlassGreen.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GlassOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\GlassOrange.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Longhorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Longhorn.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MacOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\MacOS.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Midsummer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Midsummer.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MidsummerColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\MidsummerColor1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MidsummerColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\MidsummerColor2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MidsummerColor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\MidsummerColor3.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mp10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\mp10.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mp10green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\mp10green.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mp10maroon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\mp10maroon.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mp10mulberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\mp10mulberry.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mp10pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\mp10pink.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mp10purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\mp10purple.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MSN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\MSN.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="office2007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\office2007.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OneBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\OneBlue.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OneCyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\OneCyan.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OneGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\OneGreen.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OneOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\OneOrange.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Page.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PageColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\PageColor1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PageColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\PageColor2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RealOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\RealOne.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Silver.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SilverColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SilverColor1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SilverColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SilverColor2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SportsBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SportsBlack.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SportsBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SportsBlue.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SportsCyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SportsCyan.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SportsGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SportsGreen.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SportsOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SportsOrange.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SteelBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SteelBlack.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SteelBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\SteelBlue.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vista1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\vista1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vista1_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\vista1_green.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Vista2_color1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Vista2_color1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Vista2_color2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Vista2_color2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Vista2_color3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Vista2_color3.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Vista2_color4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Vista2_color4.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Vista2_color5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Vista2_color5.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Vista2_color6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Vista2_color6.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Vista2_color7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Vista2_color7.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Warm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Warm.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WarmColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\WarmColor1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WarmColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\WarmColor2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WarmColor3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\WarmColor3.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Wave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\Wave.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WaveColor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\WaveColor1.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WaveColor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\WaveColor2.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XPBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\XPBlue.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XPGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\XPGreen.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XPOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\XPOrange.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XPSilver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Skins\XPSilver.ssk;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,10 @@
+E:\vc++6.0 project\pmxeditor\PEskin\bin\Debug\PEskin.dll
+E:\vc++6.0 project\pmxeditor\PEskin\bin\Debug\PEskin.pdb
+E:\vc++6.0 project\pmxeditor\PEskin\bin\Debug\PEPlugin.dll
+E:\vc++6.0 project\pmxeditor\PEskin\bin\Debug\PEPlugin.xml
+E:\vc++6.0 project\pmxeditor\PEskin\obj\Debug\PEskin.csprojResolveAssemblyReference.cache
+E:\vc++6.0 project\pmxeditor\PEskin\obj\Debug\PEskin.dll
+E:\vc++6.0 project\pmxeditor\PEskin\obj\Debug\PEskin.pdb
+E:\vc++6.0 project\pmxeditor\PEskin\obj\Debug\PEskin.Resource1.resources
+E:\vc++6.0 project\pmxeditor\PEskin\obj\Debug\PEskin.csproj.GenerateResource.Cache
+E:\vc++6.0 project\pmxeditor\PEskin\obj\Debug\PEskin.Resource2.resources
